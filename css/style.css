@@ -1,95 +1,61 @@
-.div-header {
-    background-color: #445161;
-    color: #ffffff;
-    height: 180px;
-    display: block;
-    padding-bottom: 150px;
+* {
+    font-family: Arial !important;/* <-- fonts */
 }
 
-.imghead {
-    display: inline-block;
-    float: right;
-    width: 469px;
-    height: 214px;
-    margin-right: 50px;
-    margin-top: -60px;
+.product-header {
+    background-color: #445162;
+    width: 100%;
 }
 
-ul {
-    float: left;
-    width: 422px;
-    height: 127px;
-    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
-    color: #ffffff;
-    font-family: "Arial MT";
+.product-header-wrapper {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.product-header-content {
+    color: #fff;
+    width: 50%;
+}
+
+.product-header-wrapper {
+    padding: 2em 0em 2em 3em;
+}
+
+.product-header-content > ul{
+    list-style: none;
+    padding-left: 0px;
+
+}
+
+.product-header-content > ul > li {
+
     font-size: 20px;
     font-weight: 400;
     line-height: 36px;
-    margin-left: 25px;
-
+    position: relative;
+    padding-left: 35px;
 }
 
-h1 {
-    width: 367px;
-    height: 44px;
-    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
-    color: #ffffff;
-    font-family: "Arial MT";
-    font-size: 60px;
-    font-weight: 400;
-    margin: 50px;
-    padding-top: 25px;
+
+.product-header-content li:before {
+    content: '';
+    width: 25px;
+    height: 20px;
+    position: absolute;
+    background-image: url(../images/check_icon.png);
+    background-size: cover;
+    background-position: center;
+    left: 0;
+    top: 50%;
+    transform: translateY(-10px);
 }
 
-.h2-1 {
-    padding-top: 15px;
-    width: 254px;
-    height: 28px;
-    color: #445161;
-    font-family: "Arial MT";
-    font-size: 30px;
-    font-weight: 400;
-    line-height: 36px;
-    margin-left: 50px;
+.product-header-image {
+    display: flex;
+    justify-content: center;
 }
-
-.div-2 {
+.imghead {
     display: block;
-    width: 700px;
-    float: left;
-    height: 350px;
-}
-
-.p1 {
-    width: 653px;
-    height: 60px;
-    color: #333333;
-    font-family: "Arial MT";
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    margin-left: 50px
-}
-
-.img2 {
-    float: right;
-    margin-right: 50px;
-    margin-top: 50px;
-}
-
-.h2-2 {
-    width: 351px;
-    height: 28px;
-    color: #445161;
-    font-family: "Arial MT";
-    font-size: 30px;
-    font-weight: 400;
-    line-height: 36px;
-    margin-left: 430px;
-
-}
-.div-3 {
-height: 680;
-background-color:
-
+  width: 50%;
 }
